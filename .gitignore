@@ -1,43 +1,16 @@
-#For Mac developers
- # Unity generated #
- # =============== #
- Temp/
- obj/
- Build
- Library/
-  
- 
-     # ===================================== #
-     # Visual Studio / MonoDevelop generated #
-     # ===================================== #
-     ExportedObj/
-     *.svd
-     *.userprefs
-     *.csproj
-     *.pidb
-     *.suo
-     *.sln
-     *.user
-     *.unityproj
-     *.booproj
-     *.orig
-     *.app
-     *.exe
-     *.*_data
-     
-     Build/iOS
-     Build/android
-     
-     *.[od]
-     
-     # ============ #
-     # OS generated #
-     # ============ #
-     .DS_Store
-     .DS_Store?
-     ._*
-     .Spotlight-V100
-     .Trashes
-     Icon?
-     ehthumbs.db
-     Thumbs.db
+#NOTE: this will cause your collaborators to re-import assets periodically
+Temp/*
+Library/*
+Build/*
+#Un-ignore these specific files
+!Library/*.asset
+!Library/AssetImportState
+!Library/AssetVersioning.db
+!Library/BuildPlayer.prefs
+!Library/ScriptMapper
+!Library/assetservercachev3
+!Library/expandedItems
+!Library/guidmapper
+!Library/unity default resources
+!Library/unity editor resources
+!Library/metadata/
